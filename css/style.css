@@ -13,7 +13,7 @@ button{
   position: relative;
   right:39%;
 }
-img{
+.navbar img{
     position: relative;
     right:67%;
 }
@@ -27,4 +27,10 @@ legend{
 
      width:auto;
     
+}
+.card-text{
+    width:50%;
+}
+.card-body img{
+    float: right;
 }

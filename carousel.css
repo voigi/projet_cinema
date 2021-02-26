@@ -8,3 +8,9 @@
      width: 32px;
      height: 32px;
 }
+.carousel-item img
+{
+    width: auto;
+    height: 450px;
+    margin-top: 20px;
+}

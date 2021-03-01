@@ -11,15 +11,13 @@ button{
     margin-right: 10px;
 }
 #slogan{
- display:none;
+
+ display: none;
 }
 .logo{
-    position: relative;
-    right:15%;
-	height: auto;
-	width:15%;
+  display: none;
+}
 
-} 
 
 fieldset {
     border: 1px groove #ddd !important;
@@ -44,8 +42,8 @@ legend{
 	justify-content: center;
 	width: 300px;
 	text-align: center;
-	margin-left: 7%;
-}
+	
+
 
 .para p {
 	border: dashed 5px #41403E;
@@ -115,9 +113,24 @@ legend{
 	display: none;
 }
 
-@media only screen and (min-width:768px) and (max-width:990px){
+
+@media only screen and (min-width:375px) and (max-width:424px){
 	.para{
-	   margin-left: 27%;
+		margin-left: 7%;
+	}
+
+}
+@media only screen and (min-width:425px) and (max-width:767px){
+	.para{
+		margin-left: 20%;
+	}
+	
+}
+@media only screen and (min-width:768px) and (max-width:990px){
+
+   .para{
+	   margin-left: 29%;
+
    }
 }
  @media only screen and (min-width:991px) and (max-width:1199px){
@@ -143,20 +156,21 @@ legend{
 		bottom: 191px;
 		left: 7%;
 		height: 200px;
+		margin-left: 29%;
+	}
+
+	.logo{
+		display: flex;
+		position: relative;
+		right:67%;
+		height: auto;
+		width: 10%;
 	}
 	#slogan{
-	display: flex;
-	position: relative;
-	right:28%;
-	}
-	.logo{
+		display: flex;
 		position: relative;
-		right:60%;
-		height: auto;
-		width:10%;
-	
-	} 
-   .para{
-	   margin-left: 29%;
-   }
+		right:29%;
+	   }
+
+
 }

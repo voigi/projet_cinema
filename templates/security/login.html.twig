@@ -3,14 +3,16 @@
 {% block title %}Connexion{% endblock %}
 
 {% block body %}
-<form method="post">
+ <div class="container">
+ 
+ <form method="post">
     {% if error %}
         <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
     {% endif %}
 
     {% if app.user %}
         <div class="mb-3">
-            You are logged in as {{ app.user.username }}, <a href="{{ path('app_logout') }}">Logout</a>
+            Vous êtes connecté entant que {{ app.user.prenom }}, <a href="{{ path('app_logout') }}">Logout</a>
         </div>
     {% endif %}
 
@@ -35,8 +37,10 @@
         </div>
     #}
 
-    <button class="btn btn-lg btn-primary" type="submit">
+    <button class="btn btn-lg btn-primary mt-2 ml-2" type="submit">
         Sign in
     </button>
 </form>
+ </div>
+
 {% endblock %}

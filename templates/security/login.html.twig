@@ -6,6 +6,8 @@
  <div class="container">
  
  <form method="post">
+   <fieldset>
+   <legend>Connection</legend>
     {% if error %}
         <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
     {% endif %}
@@ -16,7 +18,7 @@
         </div>
     {% endif %}
 
-    <h1 class="h3 mb-3 font-weight-normal">Connection</h1>
+
     <label for="inputEmail">Email</label>
     <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control" required autofocus>
     <label for="inputPassword">Password</label>
@@ -40,6 +42,7 @@
     <button class="btn btn-lg btn-primary mt-2 ml-2" type="submit">
         Sign in
     </button>
+    </fieldset>
 </form>
  </div>
 

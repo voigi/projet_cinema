@@ -1,60 +1,55 @@
-.carousel-control-prev-icon {
-     background-image: url(../images/previous-32.png);
-     width: 32px;
-     height: 32px;
-}
- .carousel-control-next-icon {
-     background-image: url(../images/next-32.png);
-     width: 32px;
-     height: 32px;
-}
-.carousel-item img
-{
-    width: auto;
-    height: 450px;
-    margin-top: 20px;
+.carousel-item img {
+	width: auto;
+	height: 450px;
+	margin-top: 20px;
 }
 
-.para
-{
-    justify-content: center;
-    width: 300px;
-    text-align: center;
-    
+.para {
+	display: flex;
+	justify-content: center;
+	width: 300px;
+	text-align: center;
+	margin-left: 29%;
 }
 
-.titre
-{
-    justify-content:center;
-    height: 100px;
-    text-align: center;
+.para p {
+	border: dashed 5px #41403E;
 }
 
+.titre {
+	justify-content: center;
+	text-align: center;
+}
 
-.recherche_p{
+.recherche_p {
 	background-color: #eeeeee;
 	border: 1px solid #dddddd;
 	padding: 10px 10px 10px 10px;
 }
-.recherche-barr{
+
+.recherche-barr {
 	margin-bottom: auto;
 	margin-top: auto;
 	background-color: #7c828e;
 }
-.recherche-input{
+
+.recherche-input {
 	border: 0;
 	width: 0;
 	line-height: 37px;
 }
-.recherche-barr:hover > .recherche-input{
+
+.recherche-barr:hover>.recherche-input {
 	padding: 0 10px;
 	width: 450px;
 	transition: width 0.4s linear;
 }
-.recherche-icone:hover{
+
+.recherche-icone:hover {
 	color: white;
 }
-.recherche-icone{
+
+.recherche-icone {
 	height: 40px;
 	width: 40px;
 	float: right;
@@ -64,3 +59,47 @@
 	border-radius: 50%;
 	color: white;
 }
+
+.resume {
+	height: auto;
+}
+
+.carousel-caption {
+	background-color: rgb(73, 73, 73);
+	opacity: 0.9;
+	border-radius: 20px;
+	border: 1px solid skyblue;
+	box-shadow: 2px 2px black;
+}
+
+.clap img {
+	display: none;
+}
+
+.clap2 {
+	display: none;
+}
+ @media only screen and (min-width:991px) and (max-width:1199px){
+ 	.titre{
+		margin-right: 10%;
+	}
+}
+@media only screen and  (min-width:1200px){
+
+	.clap img{
+		display: flex;
+	}
+	.clap2{
+		float: right;
+		position: relative;
+		bottom: 413px;
+	}
+	.para{
+		position: relative;
+		bottom: 191px;
+		left: 7%;
+		height: 200px;
+	}
+
+}
+

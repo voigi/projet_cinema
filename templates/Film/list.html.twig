@@ -1,11 +1,11 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-{% for film in filmLis %}
+{% for film in filmList %}
 <div class="container mt-5">
         <div class="card">
             <div class="card-header text-center">
-                <a href="{{ path("details_film") }}">{{film.titre}}</a>
+                <a href="{{ path("film_details",{id:film.id}) }}">{{film.titre}}</a>
             </div>
         
             <div class="card-body">

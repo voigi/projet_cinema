@@ -11,11 +11,13 @@ button{
     margin-right: 10px;
 }
 #slogan{
+
  display: none;
 }
 .logo{
   display: none;
 }
+
 
 fieldset {
     border: 1px groove #ddd !important;
@@ -41,7 +43,7 @@ legend{
 	width: 300px;
 	text-align: center;
 	
-}
+
 
 .para p {
 	border: dashed 5px #41403E;
@@ -50,9 +52,9 @@ legend{
 .titre {
 	justify-content: center;
 	text-align: center;
-}
+} 
 
-.recherche_p {
+ .recherche_p {
 	background-color: #eeeeee;
 	border: 1px solid #dddddd;
 	padding: 10px 10px 10px 10px;
@@ -111,6 +113,7 @@ legend{
 	display: none;
 }
 
+
 @media only screen and (min-width:375px) and (max-width:424px){
 	.para{
 		margin-left: 7%;
@@ -127,6 +130,7 @@ legend{
 
    .para{
 	   margin-left: 29%;
+
    }
 }
  @media only screen and (min-width:991px) and (max-width:1199px){
@@ -154,6 +158,7 @@ legend{
 		height: 200px;
 		margin-left: 29%;
 	}
+
 	.logo{
 		display: flex;
 		position: relative;
@@ -166,5 +171,6 @@ legend{
 		position: relative;
 		right:29%;
 	   }
+
 
 }

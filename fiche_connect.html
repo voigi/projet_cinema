@@ -52,36 +52,59 @@
                 <div class="progress"style="width: 20%;">
                     <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="6" aria-valuemin="0" aria-valuemax="10">6/10</div>
                 </div>
-                  <div class="overflow-auto" style="height:100px;width:260px ; margin-top: 10px;">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit molestiae fugiat assumenda hic! Hic repudiandae commodi molestias tempora repellendus aperiam, saepe architecto, earum ab aliquam quos iure accusantium? Aliquid, odit!
-                  </div>
+                 
             </div>
         </div>
     </div>
     <div class="container mt-5">
+        <form>
+            <fieldset>
+                <legend>Je commente et je note</legend>
+            <div class="form-group">
+              <label for="email">Adresse email : </label>
+              <input type="email" class="form-control" id="email" placeholder="Veuillez tapez votre email">
+            </div>
+            <div class="form-group">
+              <label for="note">Je note :</label>
+              <select class="form-control" id="note" name="note">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="comment">Je commente :</label>
+              <textarea class="form-control" id="comment" rows="3" placeholder="Veuillez laisser un commentaire"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Valider</button>
+        </fieldset>
+          </form>
+    </div>
+    
+    <!----------------------------------------------------Non-Connecté--------------------------------------------------------------->
+    <!-- <div class="container mt-5">
         <div class="card">
             <div class="card-header text-center">
-                Film 2
+                Les commentaires
             </div>
             <div class="card-body">
 
-                <img src="https://image.tmdb.org/t/p/w200/2W4ZvACURDyhiNnSIaFPHfNbny3.jpg" class="img-fluid"
-                    alt="Responsive image">
-
-
-                <p class="card-title"><strong>titre: </strong>Skylines</p>
-                <p class="card-title"><strong>titre orignal: </strong>Skylines</p>
-                <p class="card-title"><strong>date de sortie: </strong>25/10/2020</p>
-                <p class="card-title"><strong>genre: </strong>action</p>
-                <p class="card-title"><strong>acteur: </strong>Pierre,Paul,Jack</p>
-
-                <p class="card-text"></p><strong>synopsys: </strong>
-                Lorsqu'un virus menace de retourner les hybrides extraterrestres maintenant amicaux contre les humains, le capitaine Rose Corley doit diriger une équipe de mercenaires d'élite en mission dans le monde extraterrestre afin de sauver ce qui reste de l'humanité.</p>
-
+                <p class="card-title"><strong>Commentaire1: </strong><blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quaerat error, ea repudiandae iure repellendus sequi dolore accusamus optio, provident assumenda veritatis itaque accusantium ut reiciendis laboriosam officia! Asperiores, nesciunt?</blockquote></p>
+                <p class="card-title"><strong>Commentaire2: </strong><blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quaerat error, ea repudiandae iure repellendus sequi dolore accusamus optio, provident assumenda veritatis itaque accusantium ut reiciendis laboriosam officia! Asperiores, nesciunt?</blockquote></p>
+                <p class="card-title"><strong>Commentaire3: </strong><blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quaerat error, ea repudiandae iure repellendus sequi dolore accusamus optio, provident assumenda veritatis itaque accusantium ut reiciendis laboriosam officia! Asperiores, nesciunt?</blockquote></p>
+                <p class="card-title"><strong>Commentaire4: </strong><blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quaerat error, ea repudiandae iure repellendus sequi dolore accusamus optio, provident assumenda veritatis itaque accusantium ut reiciendis laboriosam officia! Asperiores, nesciunt?</blockquote></p>
+                 
             </div>
         </div>
-    </div>
-
+    </div> -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
